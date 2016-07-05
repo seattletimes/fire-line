@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <header>
+    <%= t.include("partials/_nav.html") %>
+
+    </header>
+
+    <main>
+
+      <section class="text">
+        <div class="constrained">
+          <%= markdown.intro %>
+        </div>
+      </section>
+
+      <section class="text">
+        <div class="constrained">
+          <%= markdown.story1 %>
+        </div>
+      </section>
+
+      <section class="text">
+        <div class="constrained">
+          <%= markdown.story2 %>
+        </div>
+      </section>
+
+      <section class="text">
+        <div class="constrained">
+          <%= markdown.story3 %>
+        </div>
+      </section>
+
+      <section class="text">
+        <div class="constrained">
+          <%= markdown.story4 %>
+        </div>
+      </section>
+
+      <section class="text">
+        <div class="constrained">
+          <%= markdown.story5 %>
+        </div>
+      </section>
+
+      <section class="fspro-map">
+        <leaflet-map id="fspro" fixed>
+          <tile-layer layer="esriTerrain"></tile-layer>
+        </leaflet-map>
+        <div class="segment">
+          As a part of the fire planning effort, the government models the likelihood that the fire will spread beyond a certain point using software called FSPro. The map shown displays the bounds of the fire in red.
+        </div>
+        <div class="segment">
+          When the initial measurements were taken, the model predicted an XX% chance that the fire would head south, possibly threatening Leavenworth. The fire line was planned accordingly, and cutting began.
+        </div>
+        <div class="segment">
+          Quickly, however, it became clear that the fire was not likely to spread. The weather was rainy and cool. A new model run on Sept. 5 put the odds of the fire's spread beyond the fire line at less than 1%, and no more than 39% that it would even come with X miles.
+        </div>
+        <div class="segment">
+          Despite that prediction, workers continued cutting the line. 
+        </div>
+      </section>
+
+      <section class="text">
+        <div class="constrained">
+          <%= markdown.story6 %>
+        </div>
+      </section>
+
+    </main>
+
+
+    <footer>
+      <%= t.include("partials/_dontMiss.html", { data: [] }) %>
+    </footer>
+
+    <%= t.include("partials/_navBottom.html") %>
+
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

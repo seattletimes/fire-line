@@ -1,0 +1,11 @@
+[[pictures of logging stacks]]
+
+To be sure, the Wolverine Fire, started by lightening on June 29 in the Lake Chelan National Recreation Area, looked threatening when the decision to cut the line was made last August. By then, the fire was moving fast, and making runs of as much as two miles a day. Washington was burning its way to a historic fire season. The entire nation was on a Level 5 wildfire alert -- the highest. Computer models showed a 40 percent chance of fire entering the Chiwawa Drainage, which fire managers judged would be rugged and hard to defend, putting the nearby communities of Plain and Entiat, Chelan County, at risk. 
+
+Worse, three forest service fire fighters had lost their lives August 19 in the Twisp River fires. 
+
+“All of this stuff was swirling around at the same time, we are notifying families about the deaths of their loved ones, we were planning a memorial service for those fire fighters, and we are monitoring the progress of the Wolverine Fire and at that time very guarded,” said Mike Williams, supervisor for the Okanogan-Wenatchee National Forest, where the fuel break was cut through the Wenatchee River and Entiat Districts. “I can’t underscore enough that all this stuff was going on at the same time as this contingency line decision, it just adds to the context of what was going on. We don’t know what was going to happen, but what we are going to do is continue to try to minimize the exposure of our fire fighters and protect life and property.”
+
+Firebreaks such as this one are not new to Washington, or the Northwest. But the scale of this cut was unprecedented in Washington. The Forest Service sold the logs by competitive bid for nearly $770,000, to Boise Cascade Wood Products in La Grande, Oregon, and Sierra Pacific Industries of Mount Vernon, Washington. Proceeds from the sale are divided between the national, regional, and district office of the forest service. The sale counts on the books in 2016, the first time since 2011 the Okanogan-Wenatchee would meet its timber target in a forest starved, because of environmental restrictions, for logs. 
+
+[[Map of the fire line here?]]

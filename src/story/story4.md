@@ -1,0 +1,13 @@
+[[Graphs of owl habitat before/after the break, other eco data]]
+
+Jeff Krupka, wildlife biologist at the US Fish and Wildlife Service office in Wenatchee also worked as a resource advisor on the cut. Not only was the cut unlike anything that would be allowed on these lands under normal circumstances, but even as an emergency measure, it wasn’t carried out as promised, Krupka said, because of the large amount of heavy equipment involved and urgent pace of the work.
+
+“We went back and had to re-flag all this stuff where the damage was already done, there was not much you could do,” Krupka said. He watched a feller buncher roll through a riparian reserve of a creek with protected fish who didn’t even know it until the steel tracks of his rig got wet. 
+
+In a standard, regulated, planned timber sale, skid trails for dragging out logs are designated, to minimize compaction and damage to soils. But instead, “Equipment operators just ran all over the place,” Krupka said. “It was a free for all. 
+
+“They were moving a lot faster than we could keep up, and often we felt like we were in reactive mode, by the time you got there to check out a unit, there was really nothing more you could do other than identify rehabilitation needs.”
+
+With so many trees cut, loggers generated ton upon ton of slash -- limbs and other logging debris --that created problems of their own. “They were monster piles that got so big they would run cats over them to compact it down,” Krupka said. And instead of leaving the promised “park- like area,” mountains of slash too big to chip, haul or burn still litter the landscape on some areas of the fuelbreak, in piles bigger than a garage. Fragile volcanic soils were compacted by heavy equipment and remain vulnerable to erosion.
+
+[[map of repair points with information about each]]
