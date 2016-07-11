@@ -1,0 +1,55 @@
+.habitat-data {
+  font-family: @df-sans;
+  border-top: 1px solid @df-light-gray;
+  border-bottom: 1px solid @df-light-gray;
+
+  .contents {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  h3 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .row-of-tables {
+    .display-flex();
+    .justify-content(space-around);
+  }
+
+  .table-container {
+    .flex(1);
+    padding: 10px;
+  }
+
+  table.habitat {
+    border-collapse: collapse;
+    font-size: 15px;
+    width: 100%;
+
+    th, td {
+      padding: 4px 8px;
+      text-align: right;
+      vertical-align: top;
+
+      &:not(:last-child) {
+        border-right: 1px solid @df-light-gray;
+      }
+    }
+
+    th {
+      font-weight: normal;
+      color: @df-dark-gray;
+    }
+
+    .after {
+      background: lighten(@st-light-purple, 10%);
+    }
+  }
+}

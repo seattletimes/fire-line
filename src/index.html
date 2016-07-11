@@ -16,44 +16,104 @@
 
     <main>
 
-      <section class="text">
+      <section class="opaque">
         <div class="constrained">
           <%= markdown.intro %>
         </div>
       </section>
 
-      <section class="text">
+      <section class="opaque">
         <div class="constrained">
           <%= markdown.story1 %>
         </div>
       </section>
 
-      <section class="text">
+      <section class="opaque">
         <div class="constrained">
           <%= markdown.story2 %>
         </div>
       </section>
 
-      <section class="text">
+      <section class="opaque">
         <div class="constrained">
           <%= markdown.story3 %>
         </div>
       </section>
 
-      <section class="text">
+      <section class="opaque habitat-data">
+
+        <div class="contents">
+          <h2>Animal habitats decimated</h2>
+
+          <p class="chatter">
+            Due to the emergency status of the cut and the haste in which it was conducted, acres of animal habitat were destroyed, including trees and nesting grounds for the spotted owl. The following tables show the suitable habitat areas before and after the cut, according to studies conducted by the US Fish and Wildlife Service.
+
+          <%
+          var habitat = {
+            beforeAll: [74.86283844, 21.06170266, 57.09534176, 27.99388487],
+            afterAll: [0, 0, 0, 181.0137677],
+            beforeOwls: [0.919061858, 0.286575332, 4.123612051, 0.839319714],
+            afterOwls: [0, 0, 0, 6.168568955],
+            labels: ["Highly suitable", "Marginal", "Suitable", "Unsuitable"]
+          }
+          %>
+
+          <div class="row-of-tables">
+
+            <div class="table-container">
+              <h3>Habitat in cut areas, in acres</h3>
+              <table class="habitat all">
+                <thead>
+                  <tr>
+                    <th>
+                    <th class="before"> Before
+                    <th class="after"> After
+                <tbody>
+                  <% habitat.labels.forEach(function(l, i) { %>
+                  <tr>
+                    <th><%= l %>
+                    <td class="before"><%= habitat.beforeAll[i].toFixed(2) %>
+                    <td class="after"><%= habitat.afterAll[i].toFixed(2) %>
+                  <% }); %>
+              </table>
+            </div>
+
+            <div class="table-container">
+              <h3>Owl habitat in cut areas, in acres</h3>
+              <table class="habitat owls">
+                <thead>
+                  <tr>
+                    <th>
+                    <th class="before"> Before
+                    <th class="after"> After
+                <tbody>
+                  <% habitat.labels.forEach(function(l, i) { %>
+                  <tr>
+                    <th><%= l %>
+                    <td class="before"><%= habitat.beforeOwls[i].toFixed(2) %>
+                    <td class="after"><%= habitat.afterOwls[i].toFixed(2) %>
+                  <% }); %>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="opaque">
         <div class="constrained">
           <%= markdown.story4 %>
         </div>
       </section>
 
-      <section class="text">
+      <section class="opaque">
         <div class="constrained">
           <%= markdown.story5 %>
         </div>
       </section>
 
       <section class="fspro-map">
-        <leaflet-map id="fspro" fixed>
+        <leaflet-map id="fspro">
           <tile-layer layer="cartoPositron"></tile-layer>
           <tile-layer layer="esriTerrain" opacity=".2"></tile-layer>
         </leaflet-map>
@@ -71,7 +131,7 @@
         </div>
       </section>
 
-      <section class="text">
+      <section class="opaque">
         <div class="constrained">
           <%= markdown.story6 %>
         </div>
