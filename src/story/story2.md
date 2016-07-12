@@ -5,5 +5,3 @@ The line was cut along the Meadow Creek Road from its northern end near Twin Lak
 Crews were supposed to do only hand work within 100 feet of streams, and leave trees larger than 20 inches in diameter standing, forest service documents show. But it didn’t always go that way.
 
 Photographs obtained under a public records request by the Seattle Times show logs cut that were so big, an 18-wheeler could carry only a few at time, and in the case of one grand old tree, only one massive log. So many trees were cut, the piles of logs stacked for sale towered more than three stories high, and covered acres. Many logs were 30 inches across at the base, and bigger. 
-
-[[Big shots of the logs on trucks]]

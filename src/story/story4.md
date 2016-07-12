@@ -7,5 +7,3 @@ In a standard, regulated, planned timber sale, skid trails for dragging out logs
 “They were moving a lot faster than we could keep up, and often we felt like we were in reactive mode, by the time you got there to check out a unit, there was really nothing more you could do other than identify rehabilitation needs.”
 
 With so many trees cut, loggers generated ton upon ton of slash -- limbs and other logging debris --that created problems of their own. “They were monster piles that got so big they would run cats over them to compact it down,” Krupka said. And instead of leaving the promised “park- like area,” mountains of slash too big to chip, haul or burn still litter the landscape on some areas of the fuelbreak, in piles bigger than a garage. Fragile volcanic soils were compacted by heavy equipment and remain vulnerable to erosion.
-
-[[map of repair points with information about each]]

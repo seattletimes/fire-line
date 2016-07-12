@@ -1,4 +1,5 @@
 @import "seattletimes";
+@import "header";
 @import "map";
 // @import (inline) "npm://chartist/dist/chartist.css";
 @import "habitat";
@@ -14,9 +15,56 @@ header, footer {
 
 main {
   font-size: 16px;
+}
 
-  section.opaque {
-    background: white;
-    padding: 20px;
+section.opaque {
+  background: white;
+  
+  .text {
+    padding: 20px 0;
+  }
+}
+
+.credit {
+  font-family: @df-sans;
+  float: right;
+  margin-right: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.caption {
+  font-family: @df-sans;
+  padding: 0 20px;
+  clear: both;
+  font-size: 14px;
+}
+
+.wide-image {
+  font-family: @df-sans;
+  margin: auto;
+  max-width: 1200px;
+
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.image-set {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  .row {
+    .display-flex();
+
+    .cell {
+      padding: 4px;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 }

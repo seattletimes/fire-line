@@ -1,5 +1,3 @@
-[[pictures of logging stacks]]
-
 To be sure, the Wolverine Fire, started by lightening on June 29 in the Lake Chelan National Recreation Area, looked threatening when the decision to cut the line was made last August. By then, the fire was moving fast, and making runs of as much as two miles a day. Washington was burning its way to a historic fire season. The entire nation was on a Level 5 wildfire alert -- the highest. Computer models showed a 40 percent chance of fire entering the Chiwawa Drainage, which fire managers judged would be rugged and hard to defend, putting the nearby communities of Plain and Entiat, Chelan County, at risk. 
 
 Worse, three forest service fire fighters had lost their lives August 19 in the Twisp River fires. 

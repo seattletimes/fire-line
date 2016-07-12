@@ -9,33 +9,54 @@
   </head>
   <body>
 
-    <header>
     <%= t.include("partials/_nav.html") %>
 
+    <section class="opaque">
+      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+    </section>
+
+    <header class="splash">
+      <h1>Slash and Burn</h1>
+      <h2>In the rush to fight fires, has Washington State lost control?</h2>
+      <div class="wide-image">
+        <img class="backdrop" src="./assets/photos/151190_logging77253.jpg">
+        <div class="credit">Ken Lambert / The Seattle Times</div>
+        <div class="caption">Rich Haydon, a former Forest Service employee, measures the size of trees cut for an emergency fire line logged in the national forest near his home with no environmental review. Trees bigger than 20 inches were supposed to be protected.</div>
+      </div>
     </header>
 
     <main>
 
       <section class="opaque">
-        <div class="constrained">
+        <div class="constrained text">
           <%= markdown.intro %>
         </div>
       </section>
 
       <section class="opaque">
-        <div class="constrained">
+        <div class="wide-image">
+          <img src="./assets/photos/151190_logging77269.jpg">
+          <div class="credit">Ken Lambert / The Seattle Times</div>
+          <div class="caption">A pile of timber taken from the cut, near Leavenworth.</div>
+        </div>
+        <div class="constrained text">
           <%= markdown.story1 %>
         </div>
       </section>
 
       <section class="opaque">
-        <div class="constrained">
+        <div class="constrained text">
           <%= markdown.story2 %>
+        </div>
+        <div class="wide-image">
+          <img src="./assets/photos/151190_logging77264.jpg">
+          <div class="credit">Ken Lambert / The Seattle Times</div>
+          <div class="caption">Rich Haydon, a former Forest Service employee, looks at the massive pile of cut timber.</div>
         </div>
       </section>
 
       <section class="opaque">
-        <div class="constrained">
+        <div class="constrained text">
           <%= markdown.story3 %>
         </div>
       </section>
@@ -101,13 +122,26 @@
       </section>
 
       <section class="opaque">
-        <div class="constrained">
+        <div class="constrained text">
           <%= markdown.story4 %>
+        </div>
+
+        <div class="image-set">
+          <div class="row">
+            <div class="cell">
+              <img src="./assets/photos/151190_logging77270.jpg">
+            </div>
+            <div class="cell">
+              <img src="./assets/photos/151190_logging77272.jpg">
+            </div>
+          </div>
+          <div class="credit">Ken Lambert / The Seattle Times</div>
+          <div class="caption">Photos of the cut near Leavenworth. On the right, a big ponderosa survived fire in the past, but it was no match for loggers. Fire resistant species such as ponderosa were supposed to be protected.</div>
         </div>
       </section>
 
       <section class="opaque">
-        <div class="constrained">
+        <div class="constrained text">
           <%= markdown.story5 %>
         </div>
       </section>
@@ -133,7 +167,7 @@
       </section>
 
       <section class="opaque">
-        <div class="constrained">
+        <div class="constrained text">
           <%= markdown.story6 %>
         </div>
       </section>
