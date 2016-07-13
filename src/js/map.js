@@ -35,33 +35,45 @@ var states = {
   fire: ["fire", "line"],
   initial: ["fire", "initial", "line"],
   revised: ["fire", "revised", "line"],
-  continued: ["fire", "line"]
+  continued: {
+    shown: ["fire", "line", "repairs"],
+    focus: ["repairs"]
+  }
 };
 
 var segments = $(".fspro-map .segment");
-var stack = ["fire", "initial", "revised", "line"];
+var stack = ["fire", "initial", "revised", "line", "repairs"];
 
 var fades = {
   fire: 1,
   line: 1,
   initial: .8,
-  revised: .8
+  revised: .8,
+  repairs: 1
 }
 
 var currentSegment = null;
 var onScroll = function() {
+  //don't do anything if the important layers aren't loaded
   if (!layers.line || !layers.fire || !layers.initial || !layers.revised) return;
+  // pull the line to the top
   if (currentSegment == null && layers.line) {
     layers.line.bringToFront();
   }
+  // default fitBounds set
+  var visible = [layers.line, layers.fire];
+  var foundSection = false;
+  // find the current visible segment blurb
   for (var i = 0; i < segments.length; i++) {
     var segment = segments[i];
     var bounds = segment.getBoundingClientRect();
     if (bounds.top > 0 && bounds.top < window.innerHeight * .8) {
+      //get the current segment visibility definition
+      foundSection = true;
       var s = segment.getAttribute("data-segment");
       if (s == currentSegment) return;
       currentSegment = s;
-      var state = states[s];
+      var state = states[s].shown ? states[s].shown : states[s];
       stack.forEach(function(key) {
         var layer = layers[key];
         var labels = markers[key];
@@ -75,10 +87,12 @@ var onScroll = function() {
           if (labels && labels._map) map.removeLayer(labels);
         }
       });
+      if (states[s].focus) visible = states[s].focus.map(k => layers[k]);
       break;
     }
   }
-  var visible = [layers.line, layers.fire].filter(l => l);
+  if (!foundSection) return;
+  visible = visible.filter(l => l);
   if (!visible.length) return;
   var viewport = L.latLngBounds(visible.map(l => l.getBounds()));
   map.fitBounds(viewport);
@@ -109,7 +123,7 @@ xhr("./assets/fireline.geojson", function(err, data) {
 });
 
 xhr("./assets/fspro-0827.geojson", function(err, data) {
-  var labels = markers.initial = L.layerGroup();
+  var labels = markers.initial = L.featureGroup();
   var geo = layers.initial = L.geoJson(data, {
     className: "initial fire-layer",
     style: styleFSPro
@@ -176,5 +190,26 @@ xhr("./assets/perimeter-0905.geojson", function(err, data) {
     style: () => ({ stroke: false, fillColor: rgb(202, 105, 81), fillOpacity: 1 })
   }).addTo(map);
   onScroll();
-  map.fitBounds(layers.fire.getBounds());
+});
+
+xhr("./assets/repairs.geojson", function(err, data) {
+  var group = layers.repairs = L.featureGroup();
+  data.features.forEach(function(f) {
+    var props = f.properties;
+    var label = props.Label;
+    var status = props.STATUS;
+    var [lng, lat] = f.geometry.coordinates;
+    var marker = L.marker([lat, lng], {
+      icon: L.divIcon({
+        iconSize: [10,10],
+        className: "repair-point"
+      })
+    });
+    marker.addTo(group);
+  });
+  group.setStyle = function(s) {
+    group.eachLayer(l => l.setOpacity(s().fillOpacity));
+  }
+  group.addTo(map);
+  onScroll();
 });
