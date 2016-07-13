@@ -67,7 +67,7 @@ var onScroll = function() {
   for (var i = 0; i < segments.length; i++) {
     var segment = segments[i];
     var bounds = segment.getBoundingClientRect();
-    if (bounds.top > 0 && bounds.top < window.innerHeight * .8) {
+    if (bounds.top > 0 && bounds.top < window.innerHeight) {
       //get the current segment visibility definition
       foundSection = true;
       var s = segment.getAttribute("data-segment");
