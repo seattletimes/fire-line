@@ -10,17 +10,6 @@ var { rgb, palette } = require("./lib/colors");
 var layers = window.layers = {};
 var markers = window.markers = {};
 
-// @st-light-red: rgb(229, 175, 155);
-// @st-dark-red: rgb(202, 105, 81);
-// @st-light-orange: rgb(255, 218, 162);
-// @st-dark-orange: rgb(248, 158, 93);
-// @st-light-green: rgb(181, 191, 169);
-// @st-dark-green: rgb(121, 143, 113);
-// @st-light-blue: rgb(213, 228, 240);
-// @st-dark-blue: rgb(163, 193, 221);
-// @st-light-purple: rgb(199, 187, 220);
-// @st-dark-purple: rgb(123, 90, 166);
-
 var colors = {
   1: palette.stLightBlue,
   4: palette.stLightGreen,
