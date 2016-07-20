@@ -1,5 +1,3 @@
-[[scrolling map layers that show the FSPro predictions, compared to the fire line]]
-
 In complex fires, local forest service managers delegate authority to the incident management team, which will typically, as it did in this case, include fire fighters from all over the region, country and even the world, in addition to loggers, log truck drivers and other timber cutting crew members.
 
 Clay Templin, from the Tonto National Forest in Arizona, was the incident commander in charge when the decision to launch the cut was made. He has since been promoted to director of fire and aviation management for the US Forest Service in the Midwest and Northeast. “This was my 38th fire season, and I have been doing national stuff for better than 20 years, and made these decisions based on that experience,” Templin said.

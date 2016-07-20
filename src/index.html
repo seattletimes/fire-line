@@ -91,7 +91,7 @@
             </div>
           </div>
           <div class="credit">Ken Lambert / The Seattle Times</div>
-          <div class="caption">Photos of the cut near Leavenworth. On the right, a big ponderosa survived fire in the past, but it was no match for loggers. Fire resistant species such as ponderosa were supposed to be protected.</div>
+          <div class="caption">Photos of the cut near Leavenworth. A big ponderosa survived fire in the past, but it was no match for loggers. Fire resistant species such as ponderosa were supposed to be protected.</div>
         </div>
       </section>
 
@@ -114,10 +114,10 @@
           Modeling on Aug. 27 predicted a high probability that the fire would head south, possibly threatening Plain, Ardenvoir and areas nearby. The fire line was planned accordingly and work began three days later.
         </div>
         <div class="segment" data-segment="revised">
-          Quickly, however, it became clear that the fire was not likely to spread. The weather was rainy and cool. A model run on Sept. 5 put the odds of the fire's spread beyond the line at less than 1%. Loggers continued cutting down trees for nine more days.
+          Quickly, however, it became clear that the fire was not likely to spread. The weather was rainy and cool. A model run on Sept. 5 put the odds of the fire's spread beyond the line at less than 1%. 
         </div>
         <div class="segment" data-segment="continued">
-          Despite that prediction, workers continued cutting the line. The markers shown here are places where repairs would be needed to correct the environmental damage to fish and owl habitat.
+          Loggers continued cutting down trees for nine more days. The markers shown here are places where repairs would be needed to correct the environmental damage to fish and owl habitat.
         </div>
       </section>
 
@@ -131,7 +131,17 @@
 
 
     <footer>
-      <%= t.include("partials/_dontMiss.html", { data: [] }) %>
+      <%= t.include("partials/_dontMiss.html", { data: [
+        { 
+          head: "Heron's baby boom fills tiny park near Ballard locks",
+          link: "http://www.seattletimes.com/seattle-news/environment/herons-baby-boom-fills-tiny-park-near-ballard-locks-after-eagles-made-them-move/",
+          image: "heron-teaser.jpg"
+        }, {
+          head: "Elwha: roaring back to life",
+          link: "http://projects.seattletimes.com/2016/elwha/",
+          image: "elwha-teaser.jpg"
+        }
+      ]}) %>
     </footer>
 
     <%= t.include("partials/_navBottom.html") %>

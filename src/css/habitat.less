@@ -7,6 +7,10 @@
     max-width: 600px;
     padding: 20px 0;
     margin: auto;
+
+    @media @mobile {
+      padding: 20px;
+    }
   }
 
   h2 {
@@ -24,6 +28,10 @@
       &:not(:last-child) {
         border-bottom: 1px dotted @df-light-gray;
       }
+
+      @media @mobile {
+        display: block;
+      }
     }
 
     strong {
@@ -31,6 +39,10 @@
       font-size: 20px;
       .flex(0 0 150px);
       text-align: center;
+
+      @media @mobile {
+        display: block;
+      }
     }
   }
 
