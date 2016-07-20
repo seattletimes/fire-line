@@ -8,6 +8,8 @@ More than 20 miles long, and 300 feet wide, this fuelbreak was cut as an emergen
 
 All to fight a fire that in the end never came anywhere near, and control an emergency that never happened.
 
+<%= grunt.template.include("partials/_ad.html", { type: "square" }) %>
+
 Field notes, Emails, and other incident reports released by the Forest Service under a public records requested by the Seattle Times show employees working on the fire line knew there was no emergency. Some, like Millard, a wildlife biologist technician on the Wenatchee River Ranger District, tried to stop the cutting. But they were overruled and loggers cut a fuelbreak unprecedented in its scale in Oregon or Washington, eventually cutting more than 900 logging trucks worth trees, sold as salvage logs even though the Wolverine Fire never touched the forest.
 
 Building the fuelbreak poured money into the pockets of loggers, dozer drivers, log truck drivers, and heavy equipment operators locally and all over the region during a time when their equipment would have been idled, and the woods shut down to logging because of fire risk, notes Katie Jones, president of Mark Jones Trucking Inc. in Roseburg Oregon, just one of dozens of contractors that worked on the Wolverine. 

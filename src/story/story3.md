@@ -10,6 +10,8 @@ Rivera told her to remove the sign. “My response was that I need to remove mys
 
 “I told the Ranger that constructing this... felt like an end-run around NEPA (the National Environmental Policy Act) and I forgot to mention the ESA (Endangered Species Act.)”
 
+<%= grunt.template.include("partials/_ad.html", { type: "square" }) %>
+
 Controversy over the fuelbreak being cut even as the emergency faded was reflected in a struggle by forest service and fire fighter personnel to decide just what to call it. After distribution of a public information flyer that described the fuelbreak as a community protection line -- a fire defense tactic planned and built with the usual environmental permits and public input -- Susan Peterson, a public information officer for the forest service at the time, pulled the flyers and sent out an Email correcting staff in the district. “This line is and will be referred to as a fire contingency line to prevent fire from spreading to down valley communities,” she wrote. “Thanks for sharing Susan,” Cindy Raekes, a fisheries biologist working at the time as a resource advisor on the line wrote back. “The next problem will be defining how Lake Wenatchee and Plain are at risk from this fire.”
 
 As work on the line progressed, Raekes wrote her supervisors about her concern at the damage she was witnessing.

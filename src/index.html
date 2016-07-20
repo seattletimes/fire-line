@@ -11,10 +11,6 @@
 
     <%= t.include("partials/_nav.html") %>
 
-    <section class="opaque">
-      <%= t.include("partials/_ad.html", { type: "banner" }) %>
-    </section>
-
     <header class="splash">
       <div class="backdrop">
         <div class="titles">
@@ -30,7 +26,7 @@
 
       <section class="opaque">
         <div class="constrained text">
-          <%= markdown.intro %>
+          <%= t.process(markdown.intro) %>
         </div>
       </section>
 
@@ -41,13 +37,13 @@
           <div class="caption">A pile of timber taken from the cut, near Leavenworth.</div>
         </div>
         <div class="constrained text">
-          <%= markdown.story1 %>
+          <%= t.process(markdown.story1) %>
         </div>
       </section>
 
       <section class="opaque">
         <div class="constrained text">
-          <%= markdown.story2 %>
+          <%= t.process(markdown.story2) %>
         </div>
         <div class="wide-image">
           <img class="backdrop" src="./assets/photos/151190_logging77253.jpg">
@@ -58,7 +54,7 @@
 
       <section class="opaque">
         <div class="constrained text">
-          <%= markdown.story3 %>
+          <%= t.process(markdown.story3) %>
         </div>
       </section>
 
@@ -68,63 +64,21 @@
           <h2>Animal habitats decimated</h2>
 
           <p class="chatter">
-            Due to the emergency status of the cut and the haste in which it was conducted, acres of animal habitat were destroyed, including trees and nesting grounds for the spotted owl. The following tables show the suitable habitat areas before and after the cut, according to studies conducted by the US Fish and Wildlife Service.
+            Due to the emergency status of the cut, and the haste with which it was conducted, acres of animal habitat were destroyed, including trees and nesting grounds for the spotted owl. Here's the damage by the numbers:
 
-          <%
-          var habitat = {
-            beforeAll: [74.86283844, 21.06170266, 57.09534176, 27.99388487],
-            afterAll: [0, 0, 0, 181.0137677],
-            beforeOwls: [0.919061858, 0.286575332, 4.123612051, 0.839319714],
-            afterOwls: [0, 0, 0, 6.168568955],
-            labels: ["Highly suitable", "Marginal", "Suitable", "Unsuitable"]
-          }
-          %>
-
-          <div class="row-of-tables">
-
-            <div class="table-container">
-              <h3>Habitat in cut areas, in acres</h3>
-              <table class="habitat all">
-                <thead>
-                  <tr>
-                    <th>
-                    <th class="before"> Before
-                    <th class="after"> After
-                <tbody>
-                  <% habitat.labels.forEach(function(l, i) { %>
-                  <tr>
-                    <th><%= l %>
-                    <td class="before"><%= habitat.beforeAll[i].toFixed(2) %>
-                    <td class="after"><%= habitat.afterAll[i].toFixed(2) %>
-                  <% }); %>
-              </table>
-            </div>
-
-            <div class="table-container">
-              <h3>Owl habitat in cut areas, in acres</h3>
-              <table class="habitat owls">
-                <thead>
-                  <tr>
-                    <th>
-                    <th class="before"> Before
-                    <th class="after"> After
-                <tbody>
-                  <% habitat.labels.forEach(function(l, i) { %>
-                  <tr>
-                    <th><%= l %>
-                    <td class="before"><%= habitat.beforeOwls[i].toFixed(2) %>
-                    <td class="after"><%= habitat.afterOwls[i].toFixed(2) %>
-                  <% }); %>
-              </table>
-            </div>
-
-          </div>
+          <ul class="numbers">
+            <li> <strong>6,658 acres</strong> <span class="description">Size of a typical owl home range in the Eastern Cascades (roughly a circle with a 1.8-mile radius)</span>
+            <li> <strong>46%</strong> <span class="description">Portion of the Chiwawa reserve that's considered "suitable" for owls, according to a 1997 assessment</span>
+            <li> <strong>237 acres</strong> <span class="description">Amount of forest cut for the Wolverine fire line</span>
+            <li> <strong>114 acres</strong> <span class="description">Amount of the cut that crossed through owl habitat (roughly 48%)</span>
+          </ul>
+          
         </div>
       </section>
 
       <section class="opaque">
         <div class="constrained text">
-          <%= markdown.story4 %>
+          <%= t.process(markdown.story4) %>
         </div>
 
         <div class="image-set">
@@ -143,7 +97,7 @@
 
       <section class="opaque">
         <div class="constrained text">
-          <%= markdown.story5 %>
+          <%= t.process(markdown.story5) %>
         </div>
       </section>
 
@@ -157,10 +111,10 @@
           As a part of the fire planning effort, the government models the likelihood that the fire will spread beyond a certain point using software called FSPro. The map shown displays the bounds of the fire in dark orange, and the fire line is shown in black.
         </div>
         <div class="segment" data-segment="initial">
-          When the initial measurements were taken, the model predicted a high probability that the fire would head south, possibly threatening Leavenworth. The fire line was planned accordingly, and cutting began.
+          Modeling on Aug. 27 predicted a high probability that the fire would head south, possibly threatening Plain, Ardenvoir and areas nearby. The fire line was planned accordingly and work began three days later.
         </div>
         <div class="segment" data-segment="revised">
-          Quickly, however, it became clear that the fire was not likely to spread. The weather was rainy and cool. A new model run on Sept. 5 put the odds of the fire's spread beyond the fire line at less than 1%.
+          Quickly, however, it became clear that the fire was not likely to spread. The weather was rainy and cool. A model run on Sept. 5 put the odds of the fire's spread beyond the line at less than 1%. Loggers continued cutting down trees for nine more days.
         </div>
         <div class="segment" data-segment="continued">
           Despite that prediction, workers continued cutting the line. The markers shown here are places where repairs would be needed to correct the environmental damage to fish and owl habitat.
@@ -169,7 +123,7 @@
 
       <section class="opaque">
         <div class="constrained text">
-          <%= markdown.story6 %>
+          <%= t.process(markdown.story6) %>
         </div>
       </section>
 

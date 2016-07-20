@@ -7,6 +7,16 @@
 .constrained {
   max-width: 800px;
   margin: 0 auto;
+
+  .ad {
+    float: right;
+    padding-left: 20px;
+
+    @media @mobile {
+      float: none;
+      margin: auto;
+    }
+  }
 }
 
 header, footer {

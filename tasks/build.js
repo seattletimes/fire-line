@@ -11,8 +11,8 @@ var template = require("./lib/template");
 module.exports = function(grunt) {
 
   var process = function(source, data, filename) {
-    var fn = template(source, { imports: { grunt: grunt, require: require }, sourceURL: filename });
-    return fn(data);
+    var fn = template(source, { imports: { grunt: grunt, require: require }, sourceURL: filename || "" });
+    return fn(data || {});
   };
 
   grunt.template.formatNumber = function(s) {
@@ -37,6 +37,8 @@ module.exports = function(grunt) {
     templateData.t = grunt.template;
     return process(file, templateData, where);
   };
+
+  grunt.template.process = process;
 
   grunt.registerTask("build", "Processes index.html using shared data (if available)", function() {
     var files = grunt.file.expandMapping(["**/*.html", "!**/_*.html", "!js/**/*.html"], "build", { cwd: "src" });

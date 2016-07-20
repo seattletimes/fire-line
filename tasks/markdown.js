@@ -54,6 +54,10 @@ module.exports = function(grunt) {
       }
 
       var output = writer.render(parsed);
+      //put template stuff back
+      output = output.replace(/&lt;%([\s\S]+)%&gt;/g, function(match, inner) {
+        return "<%" + inner.replace(/&quot;/g, '"') + "%>";
+      });
       var sansExtension = path.basename(filename).replace(/\..*?$/, "");
       grunt.data.markdown[sansExtension] = output;
     });

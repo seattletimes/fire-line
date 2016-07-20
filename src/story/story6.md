@@ -20,6 +20,8 @@ Based on a worst case modeling scenario on September 9 that showed possible fire
 
 Repairing damage from the logging, from crushed culverts to compacted soils, and dealing with mountains of mulch and slash, in addition to hauling timber for sale, would take weeks more. Some of the work would have to wait until the next year; slash piles were just too big to chip or haul and would have to cure for burning. 
 
+<%= grunt.template.include("partials/_ad.html", { type: "square" }) %>
+
 Long after the last log truck rumbled out of the valley, controversy over the cut remains.
 
 “Here it is miles from the fire, in a different drainage. It makes no sense,” said Rich Haydon, a retired forest service wilderness ranger, who lives near the fuelbreak. “And you look at the size of the trees. It doesn’t make any sense in terms of fire fighting, or even what we would do for a timber sale in this day and age. You can’t justify it.” 
