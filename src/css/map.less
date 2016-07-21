@@ -63,16 +63,21 @@
     float: none;
     clear: both;
     background: white;
+    overflow: hidden;
+    padding: 4px 20px;
+    font-family: @df-sans;
+
+    @media @mobile {
+      padding: 4px 8px;
+    }
 
     .source {
-      
+      float: left;
     }
 
     .credit {
-      float: none;
-      clear: both;
+      float: right;
       text-align: right;
-      padding: 10px 10px 0;
       margin-right: 0;
     }
   }
