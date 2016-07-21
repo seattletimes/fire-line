@@ -6,6 +6,8 @@ Millard usually surveys owl habitat in the Wenatchee River Ranger District. She 
 
 Millard's field notes, kept by all employees to track their time and work, shows it started to rain while she was doing her initial survey of the proposed line areas. So at a meeting Aug. 30 she expressed her surprise to learn the line was still going forward. Models showed probability of the fire moving into the area had dropped to 4 percent or less. Other districts in the forest were being reopened to visitors, Millard noted.
 
+<%= grunt.template.include("partials/_ad.html", { type: "square" }) %>
+
 But she was shouted down by one of her supervisors, Jeff Rivera, the district ranger on the Wenatchee River Ranger District. "We were told this line is happening and we are to accept it," she reported in her notes. 
 
 In response, she made a sign and stapled it to her shirt. It said: "Resource Advisor = Passive Observer to the Carnage," according to her notes. 
