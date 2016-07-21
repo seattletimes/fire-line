@@ -1,9 +1,19 @@
-Jeff Krupka, wildlife biologist at the US Fish and Wildlife Service office in Wenatchee also worked as a resource advisor on the cut. Not only was the cut unlike anything that would be allowed on these lands under normal circumstances, but even as an emergency measure, it wasn’t carried out as promised, Krupka said, because of the large amount of heavy equipment involved and urgent pace of the work.
+Controversy is reflected even in a struggle by the forest service and firefighters to decide just what to call the line.
 
-“We went back and had to re-flag all this stuff where the damage was already done, there was not much you could do,” Krupka said. He watched a feller buncher roll through a riparian reserve of a creek with protected fish who didn’t even know it until the steel tracks of his rig got wet. 
+A public-information flier described it as a community-protection line — a fire defense tactic planned and built with the usual environmental permits and public input. Then Susan Peterson, a public-information officer for the forest service at the time, pulled the fliers and sent an email correcting staff in the district.
 
-In a standard, regulated, planned timber sale, skid trails for dragging out logs are designated, to minimize compaction and damage to soils. But instead, “Equipment operators just ran all over the place,” Krupka said. “It was a free for all. 
+"This line is and will be referred to as a fire contingency line to prevent fire from spreading to down valley communities," she wrote.
 
-“They were moving a lot faster than we could keep up, and often we felt like we were in reactive mode, by the time you got there to check out a unit, there was really nothing more you could do other than identify rehabilitation needs.”
+"Thanks for sharing Susan. The next problem," Raekes wrote sarcastically, "will be defining how Lake Wenatchee and Plain are at risk from this fire."
 
-With so many trees cut, loggers generated ton upon ton of slash -- limbs and other logging debris --that created problems of their own. “They were monster piles that got so big they would run cats over them to compact it down,” Krupka said. And instead of leaving the promised “park- like area,” mountains of slash too big to chip, haul or burn still litter the landscape on some areas of the fuelbreak, in piles bigger than a garage. Fragile volcanic soils were compacted by heavy equipment and remain vulnerable to erosion.
+Jeff Krupka, wildlife biologist at the U.S. Fish and Wildlife Service office in Wenatchee, also worked as an adviser on the cut. He said in an interview that, even as an emergency measure, the line wasn't carried out as promised because of the large amount of heavy equipment involved and urgent pace of the work.
+
+He said trees larger than allowed were cut, streamside buffers were ignored and "equipment operators just ran all over the place" compacting soils. "It was a free-for-all."
+
+Rather than guiding the work, "there was really nothing more you could do other than identify rehabilitation needs," Krupka said.
+
+Don Youkey, a forest-service biologist for the district, echoed those complaints in a Sept. 4 email to his supervisors and resource advisers.
+
+"It's getting a little out of control here," he wrote.
+
+Lauri Malmquist, a botanist with the Wenatchee River Ranger District, wrote him back: "Why don't we STOP and THINK and PLAN?! There is NO emergency." 

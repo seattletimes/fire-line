@@ -1,7 +1,15 @@
-Promised in a flyer created by the Forest Service for public outreach was a so-called shaded fuelbreak in the woods. Not a clear cut, but billed as a selective cut, that would leave the big trees of fire resistent species such as ponderosa pine and take trees smaller than 20 inches in diameter, leaving a “park-like area.” The idea was to reduce fuel for wildfire, and give fire fighters an anchor point from which to safely work, should the fire come over the Entiat ridge into the Chiwawa drainage, near Lake Wenatchee.
+## Life, property, then nature
 
-The line was cut along the Meadow Creek Road from its northern end near Twin Lakes, crossing the Chiwawa River at Meadow Creek and continuing along the Chiwawa Ridge and the 5200 road near Sugarloaf lookout to the Entiat Valley to the south, logging about 700 acres, including more than 150 acres of spotted owl habitat, including six acres in so-called owl circles around nesting areas
+The Wolverine Fire, started by lightning on June 29 in the Lake Chelan National Recreation Area, was part of Washington's historic fire season last summer and burned 65,512 acres, nearly all of them under Forest Service stewardship. 
 
-Crews were supposed to do only hand work within 100 feet of streams, and leave trees larger than 20 inches in diameter standing, forest service documents show. But it didn’t always go that way.
+Computer models in late August showed the fire had up to a 40 percent chance of burning into the Chiwawa Drainage, which fire managers judged put nearby communities at risk. 
 
-Photographs obtained under a public records request by the Seattle Times show logs cut that were so big, an 18-wheeler could carry only a few at time, and in the case of one grand old tree, only one massive log. So many trees were cut, the piles of logs stacked for sale towered more than three stories high, and covered acres. Many logs were 30 inches across at the base, and bigger. 
+Worse, three forest-service firefighters had been killed the week before in the Twisp River fire. A fourth is still recovering from terrible burns. 
+
+"All of this stuff was swirling around at the same time, we are notifying families about the deaths of their loved ones, we were planning a memorial service for those firefighters, and we are monitoring the progress of the Wolverine Fire and at that time very guarded," said Mike Williams, supervisor for the Okanogan-Wenatchee National Forest, where the fuel break was cut. 
+
+While unusually large, the contingency line is part of a familiar arsenal of aggressive firefighting tactics, as wildfires grow bigger due to decades of fire suppression, and climate change. 
+
+Meanwhile people keep building more vacation homes in the woods, and prescribed burns and planned community protection lines go begging for money or political support. 
+
+Then the next fire breaks out, and the cycle repeats, as firefighters protect, as official forest-service policy, life, property and natural resources — in that order, with mixed results. Nature bats last, and in more ways than one. 

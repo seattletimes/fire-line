@@ -39,17 +39,7 @@
         <div class="constrained text">
           <%= t.process(markdown.story1) %>
         </div>
-        <div class="wide-image">
-          <img src="./assets/photos/151190_logging77269.jpg">
-          <div class="credit">Ken Lambert / The Seattle Times</div>
-          <div class="caption">A pile of timber taken from the cut, near Leavenworth.</div>
-        </div>
-      </section>
 
-      <section class="opaque">
-        <div class="constrained text">
-          <%= t.process(markdown.story2) %>
-        </div>
         <div class="image-set">
           <div class="row">
             <div class="cell">
@@ -66,7 +56,44 @@
 
       <section class="opaque">
         <div class="constrained text">
+          <%= t.process(markdown.story2) %>
+        </div>
+      </section>
+
+      <section class="fspro-map">
+        <leaflet-map id="fspro">
+          <map-options>{ "zoomControl": false }</map-options>
+          <tile-layer layer="cartoPositron"></tile-layer>
+          <tile-layer layer="esriTerrain" opacity=".2"></tile-layer>
+        </leaflet-map>
+        <div class="segment" data-segment="fire">
+          As a part of the fire planning effort, the government models the likelihood that the fire will spread beyond a certain point using software called FSPro. The map shown displays the bounds of the fire in dark orange, and the fire line is shown in black.
+        </div>
+        <div class="segment" data-segment="initial">
+          Modeling on Aug. 27 predicted a high probability that the fire would head south, possibly threatening Plain, Ardenvoir and areas nearby. The fire line was planned accordingly and work began three days later.
+        </div>
+        <div class="segment" data-segment="revised">
+          Quickly, however, it became clear that the fire was not likely to spread. The weather was rainy and cool. A model run on Sept. 5 put the odds of the fire's spread beyond the line at less than 1%. 
+        </div>
+        <div class="segment" data-segment="continued">
+          Loggers continued cutting down trees for nine more days. The markers shown here are places where repairs would be needed to correct the environmental damage to fish and owl habitat.
+        </div>
+      </section>
+
+      <section class="opaque">
+        <div class="constrained text">
           <%= t.process(markdown.story3) %>
+        </div>
+      </section>
+
+      <section class="opaque">
+        <div class="wide-image">
+          <img src="./assets/photos/151190_logging77269.jpg">
+          <div class="credit">Ken Lambert / The Seattle Times</div>
+          <div class="caption">A pile of timber taken from the cut, near Leavenworth.</div>
+        </div>
+        <div class="constrained text">
+          <%= t.process(markdown.story4) %>
         </div>
       </section>
 
@@ -93,7 +120,7 @@
 
       <section class="opaque">
         <div class="constrained text">
-          <%= t.process(markdown.story4) %>
+          <%= t.process(markdown.story5) %>
         </div>
 
         <div class="image-set">
@@ -107,32 +134,6 @@
           </div>
           <div class="credit">Ken Lambert / The Seattle Times</div>
           <div class="caption">Photos of the cut near Leavenworth. A big ponderosa survived fire in the past, but it was no match for loggers. Fire resistant species such as ponderosa were supposed to be protected.</div>
-        </div>
-      </section>
-
-      <section class="opaque">
-        <div class="constrained text">
-          <%= t.process(markdown.story5) %>
-        </div>
-      </section>
-
-      <section class="fspro-map">
-        <leaflet-map id="fspro">
-          <map-options>{ "zoomControl": false }</map-options>
-          <tile-layer layer="cartoPositron"></tile-layer>
-          <tile-layer layer="esriTerrain" opacity=".2"></tile-layer>
-        </leaflet-map>
-        <div class="segment" data-segment="fire">
-          As a part of the fire planning effort, the government models the likelihood that the fire will spread beyond a certain point using software called FSPro. The map shown displays the bounds of the fire in dark orange, and the fire line is shown in black.
-        </div>
-        <div class="segment" data-segment="initial">
-          Modeling on Aug. 27 predicted a high probability that the fire would head south, possibly threatening Plain, Ardenvoir and areas nearby. The fire line was planned accordingly and work began three days later.
-        </div>
-        <div class="segment" data-segment="revised">
-          Quickly, however, it became clear that the fire was not likely to spread. The weather was rainy and cool. A model run on Sept. 5 put the odds of the fire's spread beyond the line at less than 1%. 
-        </div>
-        <div class="segment" data-segment="continued">
-          Loggers continued cutting down trees for nine more days. The markers shown here are places where repairs would be needed to correct the environmental damage to fish and owl habitat.
         </div>
       </section>
 

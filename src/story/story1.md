@@ -1,7 +1,19 @@
-To be sure, the Wolverine Fire, started by lightening on June 29 in the Lake Chelan National Recreation Area, looked threatening when the decision to cut the line was made last August. By then, the fire was moving fast, and making runs of as much as two miles a day. Washington was burning its way to a historic fire season. The entire nation was on a Level 5 wildfire alert -- the highest. Computer models showed a 40 percent chance of fire entering the Chiwawa Drainage, which fire managers judged would be rugged and hard to defend, putting the nearby communities of Plain and Entiat, Chelan County, at risk. 
+Building the contingency line — so called because it is a fire line constructed to defend against a worst-case scenario — also meant work for crews and equipment that would have otherwise been idled, because logging was shut down due to fire risk.
 
-Worse, three forest service fire fighters had lost their lives August 19 in the Twisp River fires. 
+Bret Daugherty, of Ellensburg, one of the biggest operators on the fire break, rolled out 26 pieces of heavy equipment including nine log trucks and three mechanical tree cutters, called feller bunchers.
 
-“All of this stuff was swirling around at the same time, we are notifying families about the deaths of their loved ones, we were planning a memorial service for those fire fighters, and we are monitoring the progress of the Wolverine Fire and at that time very guarded,” said Mike Williams, supervisor for the Okanogan-Wenatchee National Forest, where the fuel break was cut through the Wenatchee River and Entiat Districts. “I can’t underscore enough that all this stuff was going on at the same time as this contingency line decision, it just adds to the context of what was going on. We don’t know what was going to happen, but what we are going to do is continue to try to minimize the exposure of our fire fighters and protect life and property.”
+Public contracting records show just one of his feller bunchers earned a $3,450 daily rate, plus at least $1,600 a day in mileage — with the money paid whether the equipment was put to work or not once called to the scene. The total cost of fighting the Wolverine Fire was $31 million; the Forest Service did not break out the cost of the contingency line construction.
 
-Firebreaks such as this one are not new to Washington, or the Northwest. But the scale of this cut was unprecedented in Washington. The Forest Service sold the logs by competitive bid for nearly $770,000, to Boise Cascade Wood Products in La Grande, Oregon, and Sierra Pacific Industries of Mount Vernon, Washington. Proceeds from the sale are divided between the national, regional, and district office of the forest service. The sale counts on the books in 2016, the first time since 2011 the Okanogan-Wenatchee would meet its timber target in a forest starved, because of environmental restrictions, for logs. 
+"It's a total win-win and the local district is generating revenue with the timber sale. They get some money they can put back on the ground; it's great," Daugherty said.
+
+The Forest Service had promised a so-called shaded fuelbreak. Not a clear cut, but a thinning intended to leave the big trees of fire-resistant species such as ponderosa pine, and take trees smaller than 20 inches in diameter, leaving a "parklike area." 
+
+The idea was to reduce fuel for wildfire, and give firefighters an anchor point from which to safely work, should the fire come over the Entiat ridge into the Chiwawa drainage, near Lake Wenatchee.
+
+Most controversial was more than 10 linear miles and 237 acres cut mainly through heavy forest on the western side of Sugarloaf Mountain in the Wenatchee River Ranger District. That portion of the line was farthest from the fire risk — and did the most environmental damage, with about half of it logged in nesting, roosting and foraging habitat in one of the last best stands for the spotted owl in all of Eastern Washington. 
+
+Some tried to stop the cutting, but they were overruled. 
+
+As work on the line progressed, Cindy Raekes, a fisheries biologist then working at the district, wrote her supervisors about the damage she was witnessing. 
+
+"This," Raekes wrote of the logging, "is essentially a ... ground-based timber sale without any best management practices to minimize resource impacts."
