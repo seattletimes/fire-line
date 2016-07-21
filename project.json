@@ -5,17 +5,17 @@
       "path": "free-firefly"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2016/slash-and-burn"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
+  "title": "Slash and burn",
+  "description": "In rush to fight fire that never came Forest Service logged miles of forest, destroyed critical habitat",
+  "url": "http://projects.seattletimes.com/2016/slash-and-burn/",
   "slug": "",
   "tags": [],
-  "image": "assets/social.jpg",
+  "image": "assets/photos/151190_logging77264.jpg",
   "sheets": [],
   "production": false,
-  "embedded": true
+  "embedded": false
 }
