@@ -16,6 +16,16 @@ header.splash {
       // background-image: linear-gradient(to bottom, transparent, fade(black, 80%));
       // padding: 100px 30px 20px;
     }
+
+    h1 {
+      color: white;
+      font-size: 70px;
+      margin: 0;
+
+      @media @mobile {
+        font-size: 36px;
+      }
+    }
   }
 
   h1 {
@@ -30,5 +40,10 @@ header.splash {
     margin: 0;
     text-align: center;
     // color: white;
+
+    @media @mobile {
+      font-size: 17px;
+      margin-top: 20px;
+    }
   }
 }
