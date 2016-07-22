@@ -18,6 +18,8 @@ As work on the line progressed, Cindy Raekes, a fisheries biologist then working
 
 “This,” Raekes wrote of the logging, “is essentially a ... ground-based timber sale without any best management practices to minimize resource impacts.”
 
+The fireline is typical of the sort of environmental price paid for emergency decision making, instead of managing forests and backcountry development better to resist fire before it starts, said Jerry Franklin, a professor of ecosystem analysis in the University of Washington’s School of Environmental and Forest Sciences. “One of the problems with fire fighting is a mentality completely takes hold that pretty much you are going to double down on things just simply because you want to protect your rear,” Franklin said.  “It is very characteristic, they just freak out. Basically in a sense it’s war.  And you don’t worry a whole lot about side effects. It is what’s called collateral damage.”
+
 The timber was later sold as salvage logs, even though fire never touched the forest, with $769,913 in proceeds paid to the Forest Service. 
 
 Some said the fire provided just the impetus long needed. 

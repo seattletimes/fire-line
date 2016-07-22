@@ -15,16 +15,15 @@
       <div class="backdrop">
         <img src="./assets/photos/151190_logging77264.jpg">
         <div class="titles">
-          <h1>Burn and slash</h1>
+          <h1>Collateral damage</h1>
         </div>
       </div>
-      <div class="credit">Ken Lambert / The Seattle Times</div>
-      <div class="caption">Rich Haydon, a former Forest Service employee, says this fire line should never have been cut.</div>
+      <div class="caption constrained">Rich Haydon, a former Forest Service employee, says this fire line should never have been cut. (Ken Lambert / The Seattle Times)</div>
       <div class="constrained">
-        <h2>Rushing to stop a fire that never came, Forest Service logged miles of critical habitat</h2>
+        <h2>Rushing to stop a fire that never came, Forest Service logged miles of big trees, critical habitat</h2>
       </div>
       <div class="constrained byline">
-        By Lynda V. Mapes<br/>
+        By <a href="http://www.seattletimes.com/author/lynda-v-mapes/">Lynda V. Mapes</a><br/>
         Seattle Times environment reporter
       </div>
     </header>
@@ -40,8 +39,7 @@
       <section class="opaque">
         <div class="narrow-image">
           <img src="./assets/photos/Loggers_truck.jpg">
-          <div class="credit">US Forest Service</div>
-          <div class="caption">Loggers were supposed to leave trees larger than 20 inches when they cut a fire line into the woods near Leavenworth. But many much larger trees were felled, including this giant.</div>
+          <div class="caption">Loggers were supposed to leave trees larger than 20 inches when they cut a fire line into the woods near Leavenworth. But many much larger trees were felled, including this giant. (US Forest Service)</div>
         </div>
 
         <div class="constrained text">
@@ -49,9 +47,8 @@
         </div>
 
         <div class="narrow-image">
-          <img src="./assets/photos/151190_logging77253.jpg">    
-          <div class="credit">Ken Lambert / The Seattle Times</div>
-          <div class="caption">"The big stumps, the spindly trees left behind, you can’t justify it," said Rich Haydon, a local resident opposed to the cut. "I am not going to let this go. It doesn’t make sense in terms of fire fighting, or what we would do in timber sales in this day and age."</div>
+          <img src="./assets/photos/151190_logging77253.jpg">
+          <div class="caption">"The big stumps, the spindly trees left behind, you can’t justify it," said Rich Haydon, a local resident opposed to the cut. "I am not going to let this go. It doesn’t make sense in terms of fire fighting, or what we would do in timber sales in this day and age." (Ken Lambert / The Seattle Times)</div>
         </div>
       </section>
 
@@ -94,8 +91,7 @@
       <section class="opaque">
         <div class="narrow-image">
           <img src="./assets/photos/151190_logging77269.jpg">
-          <div class="credit">Ken Lambert / The Seattle Times</div>
-          <div class="caption">Nearly four million board feet of timber were cut in the fire line.</div>
+          <div class="caption">Nearly four million board feet of timber were cut in the fire line. (Ken Lambert / The Seattle Times)</div>
         </div>
         <div class="constrained text">
           <%= t.process(markdown.story4) %>
@@ -130,8 +126,7 @@
 
         <div class="narrow-image">
           <img src="./assets/photos/151190_logging77272.jpg">
-          <div class="credit">Ken Lambert / The Seattle Times</div>
-          <div class="caption">A big Douglas fir survived fire in the past, but it was no match for loggers. Fire resistant species, such as ponderosa pine and Douglas fir, were not supposed to be cut.</div>
+          <div class="caption">A big Douglas fir survived fire in the past, but it was no match for loggers. Fire resistant species, such as ponderosa pine and Douglas fir, were not supposed to be cut. (Ken Lambert / The Seattle Times)</div>
         </div>
       </section>
 
@@ -145,6 +140,12 @@
 
 
     <footer>
+
+      <div class="comment-container">
+        <%= t.include("partials/_comments.html", { article: "custom-1469147852900" }) %>
+      </div>
+
+
       <%= t.include("partials/_dontMiss.html", { data: [
         { 
           head: "Heron's baby boom fills tiny park near Ballard locks",
