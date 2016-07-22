@@ -1,4 +1,4 @@
-Managers also are reluctant to pass on deploying resources in a busy fire season, holding them for later, because by then they may be in use elsewhere, and no longer available if the fire blew up.”
+Managers also are reluctant to pass on deploying resources in a busy fire season, holding them for later, because by then they may be in use elsewhere, and no longer available if the fire blew up.
 
 “When we ended up having a change in the weather and things moderated, we looked for where we could tie it off and feel pretty secure,” Templin said. 
 

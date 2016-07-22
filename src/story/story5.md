@@ -2,7 +2,7 @@
 
 In complex fires, locals delegate authority to a management team, often drawn from all over the country. 
 
-Clay Templin, from the Tonto National Forest in Arizona, was the incident commander in charge when the decision to launch the cut was made. He has since been promoted to director of fire and aviation management for the U.S. Forest Service Region 9 (Eastern Region.) 
+Clay Templin, from the Tonto National Forest in Arizona, was the incident commander in charge when the decision to launch the cut was made. He has since been promoted to director of fire and aviation management for the U.S. Forest Service Region 9 (Eastern Region). 
 
 “We were looking at where are we going to be most successful if we are going to have to make a stand,” Templin said in an interview.
 

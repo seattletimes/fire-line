@@ -14,6 +14,6 @@ Rather than guiding the work, “there was really nothing more you could do othe
 
 Don Youkey, a forest-service biologist for the district, echoed those complaints in a Sept. 4 email to his supervisors and resource advisers.
 
-“It’s getting a little out of control there,” he wrote. “I’m a little over my head on the logging operation. And several things planned have not been pulled off as described.”
+“It’s getting a little out of control out there, any help is appreciated...” he wrote. “I’m a little over my head on the logging operation. And several things planned have not been pulled off as described.”
 
 Lauri Malmquist, a botanist with the Wenatchee River Ranger District, wrote him back: “Why don’t we STOP and THINK and PLAN?! There is NO emergency.” 
