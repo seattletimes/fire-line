@@ -1,8 +1,8 @@
 As the fall rains finally began, Janet Millard hoped it would calm fear of the fire burning miles away in north central Washington during last year’s historic fire season. But Millard, a spotted owl specialist with the U.S. Forest Service, was mistaken. 
 
-Managers on the Wolverine Fire still opted to cut one of the largest fire lines ever in Washington, logging 114 acres of critical spotted owl habitat and felling big trees — including a giant that had stood for centuries, so large, it was a one-log load on a semi truck. Steel-tracked heavy equipment tore up fragile ground along stream. Erosive soils unique to the area were bulldozed. 
+Managers on the Wolverine Fire still opted to cut one of the largest fire lines ever in Washington, logging 114 acres of critical spotted owl habitat and felling big trees — including a giant that had stood for centuries, so large, it was a one-log load on a semi truck. Steel-tracked heavy equipment tore up fragile ground along streams. Erosive soils unique to the area were bulldozed. 
 
-Cut by the U.S. Forest Service with none of the usual environmental review, the fire break was up to 300 feet wide and stretched more than 50 miles, from the Entiat drainage on the east, to Twin Lakes to the west. Loggers cut nearly 4 million board feet of timber filling more than 930 logging trucks.
+Cut by the U.S. Forest Service with none of the usual environmental review, the fire break was up to 300 feet wide and stretched more than 50 miles, from the Entiat drainage on the east, to Twin Lakes to the west. Loggers cut enough trees to fill more than 930 logging trucks.
 
 Yet the fire never came anywhere near. 
 
