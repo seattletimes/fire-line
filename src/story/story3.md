@@ -1,6 +1,6 @@
 ## Controversial choice
 
-Even as it was under way, this fire line was controversial. 
+Even as it was under way, this fireline was controversial. 
 
 Millard, a Forest Service wildlife biological technician, usually surveys owl habitat in the Wenatchee River Ranger District. She was tasked with advising during the cut to help minimize destruction. 
 
@@ -14,4 +14,4 @@ In response, she made a sign and stapled it to her shirt. It said: “Resource A
 
 Rivera told her to remove the sign. “My response was that I need to remove myself from the office and I did so,” Millard wrote in a Sept. 1 email to her supervisors. “I am trying to do my job as a public servant and to be a responsible steward of the public’s resources ... I feel like my concerns and input were not welcome.”
 
-She wrote that the fire line now felt like an end-run around laws protecting the environment and endangered species.
+She wrote that the fireline now felt like an end-run around laws protecting the environment and endangered species.
